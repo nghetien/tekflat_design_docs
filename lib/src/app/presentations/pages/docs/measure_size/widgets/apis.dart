@@ -31,7 +31,7 @@ class TekMeasureSizeAPIsWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           TekVSpace.p4,
-          const DocsTitleItemWidget(title: 'Basic Measure Size'),
+          const DocsTitleItemWidget(title: 'Measure Size'),
           TekVSpace.p8,
           APITableWidget(
             dataSources: _getDataSourceTekMeasureSize(),

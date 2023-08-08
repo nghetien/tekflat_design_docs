@@ -39,7 +39,7 @@ class LineDashAPIsWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           TekVSpace.p4,
-          const DocsTitleItemWidget(title: 'Basic Line Dash'),
+          const DocsTitleItemWidget(title: 'Line Dash'),
           TekVSpace.p8,
           APITableWidget(
             dataSources: _getDataSourceLineDash(),

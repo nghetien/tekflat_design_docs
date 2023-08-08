@@ -20,16 +20,19 @@ class ButtonsPage extends StatelessWidget {
                 title: S.current.examples,
                 children: [
                   SideBarModelItem(
-                    title: 'Default Button',
+                    title: S.current.type,
                   ),
                   SideBarModelItem(
-                    title: 'Button Icon',
+                    title: S.current.size,
                   ),
                   SideBarModelItem(
-                    title: 'Button Inkwell',
+                    title: S.current.loading,
                   ),
                   SideBarModelItem(
-                    title: 'Button GestureDetector',
+                    title: S.current.disabled,
+                  ),
+                  SideBarModelItem(
+                    title: 'Link',
                   ),
                 ],
               ),
@@ -37,16 +40,10 @@ class ButtonsPage extends StatelessWidget {
                 title: 'API',
                 children: [
                   SideBarModelItem(
-                    title: 'Default Button',
+                    title: 'Tek Button',
                   ),
                   SideBarModelItem(
-                    title: 'Button Icon',
-                  ),
-                  SideBarModelItem(
-                    title: 'Button Inkwell',
-                  ),
-                  SideBarModelItem(
-                    title: 'Button GestureDetector',
+                    title: 'Tek Link',
                   ),
                 ],
               ),

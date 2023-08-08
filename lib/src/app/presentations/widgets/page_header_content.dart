@@ -59,12 +59,10 @@ class _PageContentContainerWidgetState extends State<PageContentContainerWidget>
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SelectionArea(
-              child: Text(
-                widget.title,
-                style: TekTextStyles.headline.copyWith(
-                  fontWeight: FontWeight.w600,
-                ),
+            Text(
+              widget.title,
+              style: TekTextStyles.headline.copyWith(
+                fontWeight: FontWeight.w600,
               ),
             ),
             if (widget.ableToFeedback)
@@ -79,15 +77,13 @@ class _PageContentContainerWidgetState extends State<PageContentContainerWidget>
         ),
         TekVSpace.p4,
         widget.description != null
-            ? SelectionArea(
-                child: Text(
-                  widget.description ?? '',
-                  style: TekTextStyles.body.copyWith(
-                    fontWeight: FontWeight.w500,
-                  ),
-                  maxLines: 10,
-                ),
-              )
+            ? Text(
+              widget.description ?? '',
+              style: TekTextStyles.body.copyWith(
+                fontWeight: FontWeight.w500,
+              ),
+              maxLines: 10,
+            )
             : widget.child ?? const SizedBox.shrink(),
       ],
     );

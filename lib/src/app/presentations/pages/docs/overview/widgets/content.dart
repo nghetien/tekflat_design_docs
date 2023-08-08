@@ -24,9 +24,9 @@ class OverviewContentWidget extends StatelessWidget {
                 assetImageLight: 'assets/docs_images/button_light.png',
                 assetImageDark: 'assets/docs_images/button_dark.png',
               ),
-              OverViewItemModel(
-                name: S.current.title,
-                route: AppRoutes.title,
+              const OverViewItemModel(
+                name: 'Typography',
+                route: AppRoutes.typography,
                 assetImageLight: 'assets/docs_images/title_light.png',
                 assetImageDark: 'assets/docs_images/title_dark.png',
               ),

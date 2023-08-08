@@ -6,7 +6,7 @@ enum AppRoutes {
   home('/home'),
   overview('/docs/overview'),
   button('/docs/general/button'),
-  title('/docs/general/title'),
+  typography('/docs/general/typography'),
   responsive('/docs/layout/responsive'),
   divider('/docs/layout/divider'),
   lineDash('/docs/layout/line-dash'),
@@ -41,8 +41,8 @@ enum AppRoutes {
         return S.current.overview;
       case AppRoutes.button:
         return S.current.button;
-      case AppRoutes.title:
-        return S.current.title;
+      case AppRoutes.typography:
+        return 'Typography';
       case AppRoutes.responsive:
         return S.current.responsive;
       case AppRoutes.divider:

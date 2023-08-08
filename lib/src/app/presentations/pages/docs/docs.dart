@@ -24,5 +24,5 @@ export 'services/services.dart';
 export 'spaces/spaces.dart';
 export 'styles/styles.dart';
 export 'tags/tags.dart';
-export 'titles/titles.dart';
+export 'typography/typography.dart';
 export 'toasts/toasts.dart';

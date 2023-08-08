@@ -39,9 +39,9 @@ class AppRouterImpl extends AppRouter {
               ),
             ),
             CustomizeSingleGoRouter(
-              route: AppRoutes.title,
-              builder: (_, __) => TitlesPage(
-                key: AppKeys.getAppRouteKey(AppRoutes.title.name).valueKey,
+              route: AppRoutes.typography,
+              builder: (_, __) => TypographyPage(
+                key: AppKeys.getAppRouteKey(AppRoutes.typography.name).valueKey,
               ),
             ),
             CustomizeSingleGoRouter(

@@ -128,12 +128,9 @@ class _AppMenuItemState extends State<AppMenuItem> {
       height: _heightButton,
       type: TekButtonType.primary,
       size: TekButtonSize.large,
-      titleButton: Padding(
-        padding: EdgeInsets.only(left: TekSpacings().p4),
-        child: _contentMenuItem(
-          item: item,
-          textAndIconDropdownColor: textAndIconDropdownColor,
-        ),
+      titleButton: _contentMenuItem(
+        item: item,
+        textAndIconDropdownColor: textAndIconDropdownColor,
       ),
       shape: TekOutlineBorder.none,
       textStyle: TekTextStyles.body.copyWith(color: context.theme.textTheme.bodyMedium!.color),

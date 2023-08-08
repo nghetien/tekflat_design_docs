@@ -36,9 +36,9 @@ class _AppMenuState extends State<AppMenu> {
               route: AppRoutes.button,
             ),
             MenuItemModel(
-              title: S.current.title,
+              title: 'Typography',
               icon: FontAwesomeIcons.heading,
-              route: AppRoutes.title,
+              route: AppRoutes.typography,
             ),
           ],
         ),

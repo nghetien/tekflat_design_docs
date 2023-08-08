@@ -78,6 +78,79 @@ class MessageLookup extends MessageLookupByLibrary {
         "buttonAPIDescription8":
             MessageLookupByLibrary.simpleMessage("Customize child for button."),
         "buttonAPIDescription9": MessageLookupByLibrary.simpleMessage("_"),
+        "buttonAPIDescriptionAlignment":
+            MessageLookupByLibrary.simpleMessage("Button alignment."),
+        "buttonAPIDescriptionBackground":
+            MessageLookupByLibrary.simpleMessage("Button background."),
+        "buttonAPIDescriptionBorderColor":
+            MessageLookupByLibrary.simpleMessage("Button border color."),
+        "buttonAPIDescriptionBorderRadius":
+            MessageLookupByLibrary.simpleMessage("Button border radius."),
+        "buttonAPIDescriptionBorderWidth":
+            MessageLookupByLibrary.simpleMessage("Button border width."),
+        "buttonAPIDescriptionBoxShadow":
+            MessageLookupByLibrary.simpleMessage("Button box shadow."),
+        "buttonAPIDescriptionChild":
+            MessageLookupByLibrary.simpleMessage("Button child."),
+        "buttonAPIDescriptionDisabled":
+            MessageLookupByLibrary.simpleMessage("Button disabled."),
+        "buttonAPIDescriptionElevation":
+            MessageLookupByLibrary.simpleMessage("Button elevation."),
+        "buttonAPIDescriptionFontSize":
+            MessageLookupByLibrary.simpleMessage("Button font size."),
+        "buttonAPIDescriptionFontWeight":
+            MessageLookupByLibrary.simpleMessage("Button font weight."),
+        "buttonAPIDescriptionHeight":
+            MessageLookupByLibrary.simpleMessage("Button height."),
+        "buttonAPIDescriptionHoverColor":
+            MessageLookupByLibrary.simpleMessage("Button hover color."),
+        "buttonAPIDescriptionIcon":
+            MessageLookupByLibrary.simpleMessage("Button icon."),
+        "buttonAPIDescriptionIconColor":
+            MessageLookupByLibrary.simpleMessage("Button icon color."),
+        "buttonAPIDescriptionIconData":
+            MessageLookupByLibrary.simpleMessage("Button icon data."),
+        "buttonAPIDescriptionIconIsRight":
+            MessageLookupByLibrary.simpleMessage("Button icon is right."),
+        "buttonAPIDescriptionIconSize":
+            MessageLookupByLibrary.simpleMessage("Button icon size."),
+        "buttonAPIDescriptionMainAxisAlignment":
+            MessageLookupByLibrary.simpleMessage("Button main axis alignment."),
+        "buttonAPIDescriptionMainAxisSize":
+            MessageLookupByLibrary.simpleMessage("Button main axis size."),
+        "buttonAPIDescriptionMaxLines":
+            MessageLookupByLibrary.simpleMessage("Button max lines."),
+        "buttonAPIDescriptionOnHover":
+            MessageLookupByLibrary.simpleMessage("Button on hover."),
+        "buttonAPIDescriptionOnPressed":
+            MessageLookupByLibrary.simpleMessage("Button on pressed."),
+        "buttonAPIDescriptionPadding":
+            MessageLookupByLibrary.simpleMessage("Button padding."),
+        "buttonAPIDescriptionShadowColor":
+            MessageLookupByLibrary.simpleMessage("Button shadow color."),
+        "buttonAPIDescriptionShape":
+            MessageLookupByLibrary.simpleMessage("Button shape."),
+        "buttonAPIDescriptionSize":
+            MessageLookupByLibrary.simpleMessage("Button size."),
+        "buttonAPIDescriptionSpaceBetweenIconAndText":
+            MessageLookupByLibrary.simpleMessage(
+                "Button space between icon and text."),
+        "buttonAPIDescriptionSplashFactory":
+            MessageLookupByLibrary.simpleMessage("Button splash factory."),
+        "buttonAPIDescriptionText":
+            MessageLookupByLibrary.simpleMessage("Button text."),
+        "buttonAPIDescriptionTextAlign":
+            MessageLookupByLibrary.simpleMessage("Button text align."),
+        "buttonAPIDescriptionTextColor":
+            MessageLookupByLibrary.simpleMessage("Button text color."),
+        "buttonAPIDescriptionTextStyle":
+            MessageLookupByLibrary.simpleMessage("Button text style."),
+        "buttonAPIDescriptionType":
+            MessageLookupByLibrary.simpleMessage("Button type."),
+        "buttonAPIDescriptionWidth":
+            MessageLookupByLibrary.simpleMessage("Button width."),
+        "buttonDisabled":
+            MessageLookupByLibrary.simpleMessage("Button supports disabled."),
         "buttonExample1": MessageLookupByLibrary.simpleMessage(
             "Below are 7 types of \'Default Button\' with sizes \'Large\', \'Medium\', \'Small\'."),
         "buttonExample2": MessageLookupByLibrary.simpleMessage(
@@ -114,6 +187,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "buttonIconAPIDescription5": MessageLookupByLibrary.simpleMessage("_"),
         "buttonIconAPIDescription6": MessageLookupByLibrary.simpleMessage("_"),
         "buttonIconAPIDescription7": MessageLookupByLibrary.simpleMessage("_"),
+        "buttonLink":
+            MessageLookupByLibrary.simpleMessage("Button supports link."),
+        "buttonLoading":
+            MessageLookupByLibrary.simpleMessage("Button supports loading."),
+        "buttonSize": MessageLookupByLibrary.simpleMessage(
+            "There are: small, medium, large, extraLarge in tekflat."),
+        "buttonType": MessageLookupByLibrary.simpleMessage(
+            "There are: primary, outline, danger, warning, success, info, ghost, themeGhost, none in tekflat."),
         "buttonWhenToUseDescription1": MessageLookupByLibrary.simpleMessage(
             "A button means an operation (or a series of operations). Clicking a button will trigger corresponding business logic."),
         "buttonWhenToUseDescription10": MessageLookupByLibrary.simpleMessage(
@@ -327,6 +408,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "dialogs": MessageLookupByLibrary.simpleMessage("Dialogs"),
         "dialogsHeader": MessageLookupByLibrary.simpleMessage(
             "A dialog is a widget that can show content."),
+        "disabled": MessageLookupByLibrary.simpleMessage("Disabled"),
         "divider": MessageLookupByLibrary.simpleMessage("Divider"),
         "dividerAPIDescription1":
             MessageLookupByLibrary.simpleMessage("A thickness of divider."),
@@ -414,6 +496,40 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Space between each dash."),
         "lineDashHeader": MessageLookupByLibrary.simpleMessage(
             "A line dash is a thin line that groups content in lists and layouts."),
+        "linkAPIDescriptionChild":
+            MessageLookupByLibrary.simpleMessage("Link child."),
+        "linkAPIDescriptionCursor":
+            MessageLookupByLibrary.simpleMessage("Link cursor."),
+        "linkAPIDescriptionDisabled":
+            MessageLookupByLibrary.simpleMessage("Link disabled."),
+        "linkAPIDescriptionFontWeight":
+            MessageLookupByLibrary.simpleMessage("Link font weight."),
+        "linkAPIDescriptionIcon":
+            MessageLookupByLibrary.simpleMessage("Link icon."),
+        "linkAPIDescriptionIconColor":
+            MessageLookupByLibrary.simpleMessage("Link icon color."),
+        "linkAPIDescriptionIconData":
+            MessageLookupByLibrary.simpleMessage("Link icon data."),
+        "linkAPIDescriptionIconIsRight":
+            MessageLookupByLibrary.simpleMessage("Link icon is right."),
+        "linkAPIDescriptionIconSize":
+            MessageLookupByLibrary.simpleMessage("Link icon size."),
+        "linkAPIDescriptionMaxLines":
+            MessageLookupByLibrary.simpleMessage("Link max lines."),
+        "linkAPIDescriptionOnPressed":
+            MessageLookupByLibrary.simpleMessage("Link on pressed."),
+        "linkAPIDescriptionSize":
+            MessageLookupByLibrary.simpleMessage("Link size."),
+        "linkAPIDescriptionText":
+            MessageLookupByLibrary.simpleMessage("Link text."),
+        "linkAPIDescriptionTextColor":
+            MessageLookupByLibrary.simpleMessage("Link text color."),
+        "linkAPIDescriptionTextSize":
+            MessageLookupByLibrary.simpleMessage("Link text size."),
+        "linkAPIDescriptionTextStyle":
+            MessageLookupByLibrary.simpleMessage("Link text style."),
+        "linkAPIDescriptionType":
+            MessageLookupByLibrary.simpleMessage("Link type."),
         "listViewBuilder":
             MessageLookupByLibrary.simpleMessage("List View Builder"),
         "listViewBuilderAPIDescription1":
@@ -554,6 +670,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "selector": MessageLookupByLibrary.simpleMessage("Selector"),
         "send": MessageLookupByLibrary.simpleMessage("Send"),
         "showCode": MessageLookupByLibrary.simpleMessage("Show Code"),
+        "size": MessageLookupByLibrary.simpleMessage("Size"),
         "spaces": MessageLookupByLibrary.simpleMessage("Spaces"),
         "spacesHeader": MessageLookupByLibrary.simpleMessage(
             "A spaces is a widget that can add spaces between widgets."),
@@ -609,6 +726,14 @@ class MessageLookup extends MessageLookupByLibrary {
             "A toast is a widget that can show message."),
         "today": MessageLookupByLibrary.simpleMessage("Today"),
         "type": MessageLookupByLibrary.simpleMessage("Type"),
+        "typographyBasicUsage": MessageLookupByLibrary.simpleMessage(
+            "Display title in different level."),
+        "typographyTitle": MessageLookupByLibrary.simpleMessage(
+            "Basic text writing, including headings, body text, lists, and more."),
+        "typographyWhenToUse1": MessageLookupByLibrary.simpleMessage(
+            "When need to display a title or paragraph contents in Articles/Blogs/Notes."),
+        "typographyWhenToUse2": MessageLookupByLibrary.simpleMessage(
+            "When you need copyable/editable/ellipsis texts."),
         "updating": MessageLookupByLibrary.simpleMessage("Updating"),
         "version": MessageLookupByLibrary.simpleMessage("Version"),
         "viewMore": MessageLookupByLibrary.simpleMessage("View More"),

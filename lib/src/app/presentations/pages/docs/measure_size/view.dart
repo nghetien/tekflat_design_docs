@@ -15,9 +15,19 @@ class TekMeasureSizePage extends StatelessWidget {
         children: [
           SideBarModelItem(
             title: S.current.examples,
+            children: [
+              SideBarModelItem(
+                title: S.current.basicUsage,
+              ),
+            ],
           ),
           SideBarModelItem(
             title: 'API',
+            children: [
+              SideBarModelItem(
+                title: S.current.measureSize,
+              ),
+            ],
           ),
           SideBarModelItem(
             title: S.current.makeAQuestion,

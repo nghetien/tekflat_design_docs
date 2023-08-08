@@ -1,7 +1,7 @@
+import 'package:flutter/material.dart';
 import 'package:tekflat_design/tekflat_design.dart';
 import 'package:tekflat_design_docs/src/app/app.dart';
 import 'package:tekflat_design_docs/src/core/core.dart';
-import 'package:flutter/material.dart';
 
 class DividerPage extends StatelessWidget {
   const DividerPage({Key? key}) : super(key: key);
@@ -15,10 +15,20 @@ class DividerPage extends StatelessWidget {
         children: [
           SideBarModelItem(
             title: S.current.examples,
-          ),
+                children: [
+                  SideBarModelItem(
+                    title: S.current.basicUsage,
+                  ),
+                ],
+              ),
           SideBarModelItem(
             title: 'API',
-          ),
+                children: [
+                  SideBarModelItem(
+                    title: S.current.divider,
+                  ),
+                ],
+              ),
           SideBarModelItem(
             title: S.current.makeAQuestion,
           ),

@@ -33,6 +33,7 @@ class DataTablePageLayoutMobile extends StatelessWidget {
         // ignore: prefer_const_constructors
         PageContentContainerWidget(
           title: 'API',
+          ableToFeedback: true,
           // ignore: prefer_const_constructors
           child: DataTableAPIsWidget(),
         ),

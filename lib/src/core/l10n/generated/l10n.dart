@@ -3849,6 +3849,636 @@ class S {
       args: [],
     );
   }
+
+  /// `There are: primary, outline, danger, warning, success, info, ghost, themeGhost, none in tekflat.`
+  String get buttonType {
+    return Intl.message(
+      'There are: primary, outline, danger, warning, success, info, ghost, themeGhost, none in tekflat.',
+      name: 'buttonType',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Size`
+  String get size {
+    return Intl.message(
+      'Size',
+      name: 'size',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `There are: small, medium, large, extraLarge in tekflat.`
+  String get buttonSize {
+    return Intl.message(
+      'There are: small, medium, large, extraLarge in tekflat.',
+      name: 'buttonSize',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button supports loading.`
+  String get buttonLoading {
+    return Intl.message(
+      'Button supports loading.',
+      name: 'buttonLoading',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Disabled`
+  String get disabled {
+    return Intl.message(
+      'Disabled',
+      name: 'disabled',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button supports disabled.`
+  String get buttonDisabled {
+    return Intl.message(
+      'Button supports disabled.',
+      name: 'buttonDisabled',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button supports link.`
+  String get buttonLink {
+    return Intl.message(
+      'Button supports link.',
+      name: 'buttonLink',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button size.`
+  String get buttonAPIDescriptionSize {
+    return Intl.message(
+      'Button size.',
+      name: 'buttonAPIDescriptionSize',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button type.`
+  String get buttonAPIDescriptionType {
+    return Intl.message(
+      'Button type.',
+      name: 'buttonAPIDescriptionType',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button on pressed.`
+  String get buttonAPIDescriptionOnPressed {
+    return Intl.message(
+      'Button on pressed.',
+      name: 'buttonAPIDescriptionOnPressed',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button on hover.`
+  String get buttonAPIDescriptionOnHover {
+    return Intl.message(
+      'Button on hover.',
+      name: 'buttonAPIDescriptionOnHover',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button disabled.`
+  String get buttonAPIDescriptionDisabled {
+    return Intl.message(
+      'Button disabled.',
+      name: 'buttonAPIDescriptionDisabled',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button text.`
+  String get buttonAPIDescriptionText {
+    return Intl.message(
+      'Button text.',
+      name: 'buttonAPIDescriptionText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button child.`
+  String get buttonAPIDescriptionChild {
+    return Intl.message(
+      'Button child.',
+      name: 'buttonAPIDescriptionChild',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button icon.`
+  String get buttonAPIDescriptionIcon {
+    return Intl.message(
+      'Button icon.',
+      name: 'buttonAPIDescriptionIcon',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button icon data.`
+  String get buttonAPIDescriptionIconData {
+    return Intl.message(
+      'Button icon data.',
+      name: 'buttonAPIDescriptionIconData',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button icon is right.`
+  String get buttonAPIDescriptionIconIsRight {
+    return Intl.message(
+      'Button icon is right.',
+      name: 'buttonAPIDescriptionIconIsRight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button width.`
+  String get buttonAPIDescriptionWidth {
+    return Intl.message(
+      'Button width.',
+      name: 'buttonAPIDescriptionWidth',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button height.`
+  String get buttonAPIDescriptionHeight {
+    return Intl.message(
+      'Button height.',
+      name: 'buttonAPIDescriptionHeight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button padding.`
+  String get buttonAPIDescriptionPadding {
+    return Intl.message(
+      'Button padding.',
+      name: 'buttonAPIDescriptionPadding',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button background.`
+  String get buttonAPIDescriptionBackground {
+    return Intl.message(
+      'Button background.',
+      name: 'buttonAPIDescriptionBackground',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button hover color.`
+  String get buttonAPIDescriptionHoverColor {
+    return Intl.message(
+      'Button hover color.',
+      name: 'buttonAPIDescriptionHoverColor',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button shadow color.`
+  String get buttonAPIDescriptionShadowColor {
+    return Intl.message(
+      'Button shadow color.',
+      name: 'buttonAPIDescriptionShadowColor',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button elevation.`
+  String get buttonAPIDescriptionElevation {
+    return Intl.message(
+      'Button elevation.',
+      name: 'buttonAPIDescriptionElevation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button splash factory.`
+  String get buttonAPIDescriptionSplashFactory {
+    return Intl.message(
+      'Button splash factory.',
+      name: 'buttonAPIDescriptionSplashFactory',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button box shadow.`
+  String get buttonAPIDescriptionBoxShadow {
+    return Intl.message(
+      'Button box shadow.',
+      name: 'buttonAPIDescriptionBoxShadow',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button shape.`
+  String get buttonAPIDescriptionShape {
+    return Intl.message(
+      'Button shape.',
+      name: 'buttonAPIDescriptionShape',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button text color.`
+  String get buttonAPIDescriptionTextColor {
+    return Intl.message(
+      'Button text color.',
+      name: 'buttonAPIDescriptionTextColor',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button font size.`
+  String get buttonAPIDescriptionFontSize {
+    return Intl.message(
+      'Button font size.',
+      name: 'buttonAPIDescriptionFontSize',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button text style.`
+  String get buttonAPIDescriptionTextStyle {
+    return Intl.message(
+      'Button text style.',
+      name: 'buttonAPIDescriptionTextStyle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button text align.`
+  String get buttonAPIDescriptionTextAlign {
+    return Intl.message(
+      'Button text align.',
+      name: 'buttonAPIDescriptionTextAlign',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button max lines.`
+  String get buttonAPIDescriptionMaxLines {
+    return Intl.message(
+      'Button max lines.',
+      name: 'buttonAPIDescriptionMaxLines',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button alignment.`
+  String get buttonAPIDescriptionAlignment {
+    return Intl.message(
+      'Button alignment.',
+      name: 'buttonAPIDescriptionAlignment',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button icon size.`
+  String get buttonAPIDescriptionIconSize {
+    return Intl.message(
+      'Button icon size.',
+      name: 'buttonAPIDescriptionIconSize',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button icon color.`
+  String get buttonAPIDescriptionIconColor {
+    return Intl.message(
+      'Button icon color.',
+      name: 'buttonAPIDescriptionIconColor',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button main axis alignment.`
+  String get buttonAPIDescriptionMainAxisAlignment {
+    return Intl.message(
+      'Button main axis alignment.',
+      name: 'buttonAPIDescriptionMainAxisAlignment',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button space between icon and text.`
+  String get buttonAPIDescriptionSpaceBetweenIconAndText {
+    return Intl.message(
+      'Button space between icon and text.',
+      name: 'buttonAPIDescriptionSpaceBetweenIconAndText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button font weight.`
+  String get buttonAPIDescriptionFontWeight {
+    return Intl.message(
+      'Button font weight.',
+      name: 'buttonAPIDescriptionFontWeight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button main axis size.`
+  String get buttonAPIDescriptionMainAxisSize {
+    return Intl.message(
+      'Button main axis size.',
+      name: 'buttonAPIDescriptionMainAxisSize',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button border color.`
+  String get buttonAPIDescriptionBorderColor {
+    return Intl.message(
+      'Button border color.',
+      name: 'buttonAPIDescriptionBorderColor',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button border width.`
+  String get buttonAPIDescriptionBorderWidth {
+    return Intl.message(
+      'Button border width.',
+      name: 'buttonAPIDescriptionBorderWidth',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Button border radius.`
+  String get buttonAPIDescriptionBorderRadius {
+    return Intl.message(
+      'Button border radius.',
+      name: 'buttonAPIDescriptionBorderRadius',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link size.`
+  String get linkAPIDescriptionSize {
+    return Intl.message(
+      'Link size.',
+      name: 'linkAPIDescriptionSize',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link type.`
+  String get linkAPIDescriptionType {
+    return Intl.message(
+      'Link type.',
+      name: 'linkAPIDescriptionType',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link text.`
+  String get linkAPIDescriptionText {
+    return Intl.message(
+      'Link text.',
+      name: 'linkAPIDescriptionText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link icon data.`
+  String get linkAPIDescriptionIconData {
+    return Intl.message(
+      'Link icon data.',
+      name: 'linkAPIDescriptionIconData',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link icon.`
+  String get linkAPIDescriptionIcon {
+    return Intl.message(
+      'Link icon.',
+      name: 'linkAPIDescriptionIcon',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link child.`
+  String get linkAPIDescriptionChild {
+    return Intl.message(
+      'Link child.',
+      name: 'linkAPIDescriptionChild',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link on pressed.`
+  String get linkAPIDescriptionOnPressed {
+    return Intl.message(
+      'Link on pressed.',
+      name: 'linkAPIDescriptionOnPressed',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link cursor.`
+  String get linkAPIDescriptionCursor {
+    return Intl.message(
+      'Link cursor.',
+      name: 'linkAPIDescriptionCursor',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link disabled.`
+  String get linkAPIDescriptionDisabled {
+    return Intl.message(
+      'Link disabled.',
+      name: 'linkAPIDescriptionDisabled',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link icon size.`
+  String get linkAPIDescriptionIconSize {
+    return Intl.message(
+      'Link icon size.',
+      name: 'linkAPIDescriptionIconSize',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link icon color.`
+  String get linkAPIDescriptionIconColor {
+    return Intl.message(
+      'Link icon color.',
+      name: 'linkAPIDescriptionIconColor',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link text style.`
+  String get linkAPIDescriptionTextStyle {
+    return Intl.message(
+      'Link text style.',
+      name: 'linkAPIDescriptionTextStyle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link max lines.`
+  String get linkAPIDescriptionMaxLines {
+    return Intl.message(
+      'Link max lines.',
+      name: 'linkAPIDescriptionMaxLines',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link text color.`
+  String get linkAPIDescriptionTextColor {
+    return Intl.message(
+      'Link text color.',
+      name: 'linkAPIDescriptionTextColor',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link text size.`
+  String get linkAPIDescriptionTextSize {
+    return Intl.message(
+      'Link text size.',
+      name: 'linkAPIDescriptionTextSize',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link icon is right.`
+  String get linkAPIDescriptionIconIsRight {
+    return Intl.message(
+      'Link icon is right.',
+      name: 'linkAPIDescriptionIconIsRight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Link font weight.`
+  String get linkAPIDescriptionFontWeight {
+    return Intl.message(
+      'Link font weight.',
+      name: 'linkAPIDescriptionFontWeight',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `When need to display a title or paragraph contents in Articles/Blogs/Notes.`
+  String get typographyWhenToUse1 {
+    return Intl.message(
+      'When need to display a title or paragraph contents in Articles/Blogs/Notes.',
+      name: 'typographyWhenToUse1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `When you need copyable/editable/ellipsis texts.`
+  String get typographyWhenToUse2 {
+    return Intl.message(
+      'When you need copyable/editable/ellipsis texts.',
+      name: 'typographyWhenToUse2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Display title in different level.`
+  String get typographyBasicUsage {
+    return Intl.message(
+      'Display title in different level.',
+      name: 'typographyBasicUsage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Basic text writing, including headings, body text, lists, and more.`
+  String get typographyTitle {
+    return Intl.message(
+      'Basic text writing, including headings, body text, lists, and more.',
+      name: 'typographyTitle',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

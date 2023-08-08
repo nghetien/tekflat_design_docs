@@ -79,6 +79,79 @@ class MessageLookup extends MessageLookupByLibrary {
         "buttonAPIDescription8": MessageLookupByLibrary.simpleMessage(
             "Thiết kế lại child widget cho button."),
         "buttonAPIDescription9": MessageLookupByLibrary.simpleMessage("_"),
+        "buttonAPIDescriptionAlignment":
+            MessageLookupByLibrary.simpleMessage("Button alignment."),
+        "buttonAPIDescriptionBackground":
+            MessageLookupByLibrary.simpleMessage("Button background."),
+        "buttonAPIDescriptionBorderColor":
+            MessageLookupByLibrary.simpleMessage("Button border color."),
+        "buttonAPIDescriptionBorderRadius":
+            MessageLookupByLibrary.simpleMessage("Button border radius."),
+        "buttonAPIDescriptionBorderWidth":
+            MessageLookupByLibrary.simpleMessage("Button border width."),
+        "buttonAPIDescriptionBoxShadow":
+            MessageLookupByLibrary.simpleMessage("Button box shadow."),
+        "buttonAPIDescriptionChild":
+            MessageLookupByLibrary.simpleMessage("Button child."),
+        "buttonAPIDescriptionDisabled":
+            MessageLookupByLibrary.simpleMessage("Button disabled."),
+        "buttonAPIDescriptionElevation":
+            MessageLookupByLibrary.simpleMessage("Button elevation."),
+        "buttonAPIDescriptionFontSize":
+            MessageLookupByLibrary.simpleMessage("Button font size."),
+        "buttonAPIDescriptionFontWeight":
+            MessageLookupByLibrary.simpleMessage("Button font weight."),
+        "buttonAPIDescriptionHeight":
+            MessageLookupByLibrary.simpleMessage("Button height."),
+        "buttonAPIDescriptionHoverColor":
+            MessageLookupByLibrary.simpleMessage("Button hover color."),
+        "buttonAPIDescriptionIcon":
+            MessageLookupByLibrary.simpleMessage("Button icon."),
+        "buttonAPIDescriptionIconColor":
+            MessageLookupByLibrary.simpleMessage("Button icon color."),
+        "buttonAPIDescriptionIconData":
+            MessageLookupByLibrary.simpleMessage("Button icon data."),
+        "buttonAPIDescriptionIconIsRight":
+            MessageLookupByLibrary.simpleMessage("Button icon is right."),
+        "buttonAPIDescriptionIconSize":
+            MessageLookupByLibrary.simpleMessage("Button icon size."),
+        "buttonAPIDescriptionMainAxisAlignment":
+            MessageLookupByLibrary.simpleMessage("Button main axis alignment."),
+        "buttonAPIDescriptionMainAxisSize":
+            MessageLookupByLibrary.simpleMessage("Button main axis size."),
+        "buttonAPIDescriptionMaxLines":
+            MessageLookupByLibrary.simpleMessage("Button max lines."),
+        "buttonAPIDescriptionOnHover":
+            MessageLookupByLibrary.simpleMessage("Button on hover."),
+        "buttonAPIDescriptionOnPressed":
+            MessageLookupByLibrary.simpleMessage("Button on pressed."),
+        "buttonAPIDescriptionPadding":
+            MessageLookupByLibrary.simpleMessage("Button padding."),
+        "buttonAPIDescriptionShadowColor":
+            MessageLookupByLibrary.simpleMessage("Button shadow color."),
+        "buttonAPIDescriptionShape":
+            MessageLookupByLibrary.simpleMessage("Button shape."),
+        "buttonAPIDescriptionSize":
+            MessageLookupByLibrary.simpleMessage("Button size."),
+        "buttonAPIDescriptionSpaceBetweenIconAndText":
+            MessageLookupByLibrary.simpleMessage(
+                "Button space between icon and text."),
+        "buttonAPIDescriptionSplashFactory":
+            MessageLookupByLibrary.simpleMessage("Button splash factory."),
+        "buttonAPIDescriptionText":
+            MessageLookupByLibrary.simpleMessage("Button text."),
+        "buttonAPIDescriptionTextAlign":
+            MessageLookupByLibrary.simpleMessage("Button text align."),
+        "buttonAPIDescriptionTextColor":
+            MessageLookupByLibrary.simpleMessage("Button text color."),
+        "buttonAPIDescriptionTextStyle":
+            MessageLookupByLibrary.simpleMessage("Button text style."),
+        "buttonAPIDescriptionType":
+            MessageLookupByLibrary.simpleMessage("Button type."),
+        "buttonAPIDescriptionWidth":
+            MessageLookupByLibrary.simpleMessage("Button width."),
+        "buttonDisabled":
+            MessageLookupByLibrary.simpleMessage("Có thể disabled."),
         "buttonExample1": MessageLookupByLibrary.simpleMessage(
             "Dưới đấy là 7 kiểu \'Default Button\' với kích thước \'Large\', \'Medium\', \'Small\'."),
         "buttonExample2": MessageLookupByLibrary.simpleMessage(
@@ -117,6 +190,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "buttonIconAPIDescription6": MessageLookupByLibrary.simpleMessage(
             "Đặt icon phía trước text hoặc sau text."),
         "buttonIconAPIDescription7": MessageLookupByLibrary.simpleMessage("_"),
+        "buttonLink": MessageLookupByLibrary.simpleMessage(
+            "Có thể hiển thị dưới dạng link."),
+        "buttonLoading":
+            MessageLookupByLibrary.simpleMessage("Có thể hiển thị loading."),
+        "buttonSize": MessageLookupByLibrary.simpleMessage(
+            "Bao gồm: small, medium, large, extraLarge trong tekflat."),
+        "buttonType": MessageLookupByLibrary.simpleMessage(
+            "Bao gồm: primary, outline, danger, warning, success, info, ghost, themeGhost, none trong tekflat."),
         "buttonWhenToUseDescription1": MessageLookupByLibrary.simpleMessage(
             "Một nút có nghĩa là một hoạt động (hoặc một loạt các hoạt động). Nhấp vào nút sẽ kích hoạt logic nghiệp vụ tương ứng."),
         "buttonWhenToUseDescription10": MessageLookupByLibrary.simpleMessage(
@@ -334,6 +415,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "dialogs": MessageLookupByLibrary.simpleMessage("Dialogs"),
         "dialogsHeader": MessageLookupByLibrary.simpleMessage(
             "Một dialog là một vật dụng có thể hiển thị một số hoặc một văn bản ngắn."),
+        "disabled": MessageLookupByLibrary.simpleMessage("Disabled"),
         "divider": MessageLookupByLibrary.simpleMessage("Divider"),
         "dividerAPIDescription1":
             MessageLookupByLibrary.simpleMessage("Độ dày của divider."),
@@ -418,6 +500,40 @@ class MessageLookup extends MessageLookupByLibrary {
             "Khoảng cách giữa các nét gạch."),
         "lineDashHeader": MessageLookupByLibrary.simpleMessage(
             "Dấu gạch ngang là một đường mảnh nhóm nội dung trong danh sách và bố cục."),
+        "linkAPIDescriptionChild":
+            MessageLookupByLibrary.simpleMessage("Link child."),
+        "linkAPIDescriptionCursor":
+            MessageLookupByLibrary.simpleMessage("Link cursor."),
+        "linkAPIDescriptionDisabled":
+            MessageLookupByLibrary.simpleMessage("Link disabled."),
+        "linkAPIDescriptionFontWeight":
+            MessageLookupByLibrary.simpleMessage("Link font weight."),
+        "linkAPIDescriptionIcon":
+            MessageLookupByLibrary.simpleMessage("Link icon."),
+        "linkAPIDescriptionIconColor":
+            MessageLookupByLibrary.simpleMessage("Link icon color."),
+        "linkAPIDescriptionIconData":
+            MessageLookupByLibrary.simpleMessage("Link icon data."),
+        "linkAPIDescriptionIconIsRight":
+            MessageLookupByLibrary.simpleMessage("Link icon is right."),
+        "linkAPIDescriptionIconSize":
+            MessageLookupByLibrary.simpleMessage("Link icon size."),
+        "linkAPIDescriptionMaxLines":
+            MessageLookupByLibrary.simpleMessage("Link max lines."),
+        "linkAPIDescriptionOnPressed":
+            MessageLookupByLibrary.simpleMessage("Link on pressed."),
+        "linkAPIDescriptionSize":
+            MessageLookupByLibrary.simpleMessage("Link size."),
+        "linkAPIDescriptionText":
+            MessageLookupByLibrary.simpleMessage("Link text."),
+        "linkAPIDescriptionTextColor":
+            MessageLookupByLibrary.simpleMessage("Link text color."),
+        "linkAPIDescriptionTextSize":
+            MessageLookupByLibrary.simpleMessage("Link text size."),
+        "linkAPIDescriptionTextStyle":
+            MessageLookupByLibrary.simpleMessage("Link text style."),
+        "linkAPIDescriptionType":
+            MessageLookupByLibrary.simpleMessage("Link type."),
         "listViewBuilder":
             MessageLookupByLibrary.simpleMessage("List View Builder"),
         "listViewBuilderAPIDescription1":
@@ -557,6 +673,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "selector": MessageLookupByLibrary.simpleMessage("Selector"),
         "send": MessageLookupByLibrary.simpleMessage("Gửi"),
         "showCode": MessageLookupByLibrary.simpleMessage("Hiển thị mã"),
+        "size": MessageLookupByLibrary.simpleMessage("Kích thước"),
         "spaces": MessageLookupByLibrary.simpleMessage("Spaces"),
         "spacesHeader": MessageLookupByLibrary.simpleMessage(
             "Dấu cách là một tiện ích có thể thêm khoảng cách giữa các tiện ích."),
@@ -612,6 +729,14 @@ class MessageLookup extends MessageLookupByLibrary {
             "Một toast là một vật dụng có thể hiển thị một số hoặc một văn bản ngắn."),
         "today": MessageLookupByLibrary.simpleMessage("Hôm nay"),
         "type": MessageLookupByLibrary.simpleMessage("Kiểu"),
+        "typographyBasicUsage": MessageLookupByLibrary.simpleMessage(
+            "Hiển thị tiêu đề ở cấp độ khác nhau."),
+        "typographyTitle": MessageLookupByLibrary.simpleMessage(
+            "Viết văn bản cơ bản, bao gồm tiêu đề, nội dung văn bản, danh sách, ..."),
+        "typographyWhenToUse1": MessageLookupByLibrary.simpleMessage(
+            "Khi bạn cần văn bản có thể sao chép/có thể chỉnh sửa/dấu chấm lửng."),
+        "typographyWhenToUse2": MessageLookupByLibrary.simpleMessage(
+            "Khi bạn cần văn bản có thể sao chép/chỉnh sửa/dấu chấm lửng."),
         "updating": MessageLookupByLibrary.simpleMessage("Đang cập nhật"),
         "version": MessageLookupByLibrary.simpleMessage("Phiên bản"),
         "viewMore": MessageLookupByLibrary.simpleMessage("Xem thêm"),

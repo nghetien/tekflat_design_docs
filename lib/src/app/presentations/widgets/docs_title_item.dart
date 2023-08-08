@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:tekflat_design/tekflat_design.dart';
 
 class DocsTitleItemWidget extends StatelessWidget {
@@ -7,29 +6,19 @@ class DocsTitleItemWidget extends StatelessWidget {
     Key? key,
     required this.title,
     this.fontStyle,
+    this.maxLines,
   }) : super(key: key);
 
   final String title;
   final FontStyle? fontStyle;
+  final int? maxLines;
 
   @override
-  Widget build(BuildContext context) => SelectionArea(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: <Widget>[
-            const Icon(
-              FontAwesomeIcons.minus,
-              size: 11,
-            ),
-            TekHSpace.p8,
-            Text(
-              title,
-              style: TekTextStyles.body.copyWith(
-                fontStyle: fontStyle,
-              ),
-            ),
-          ],
+  Widget build(BuildContext context) => Text(
+        "- $title",
+        style: TekTextStyles.body.copyWith(
+          fontStyle: fontStyle,
         ),
+        maxLines: maxLines,
       );
 }

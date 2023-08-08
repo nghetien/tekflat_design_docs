@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:tekflat_design/tekflat_design.dart';
 
-class TitleExampleWidget extends StatelessWidget {
-  const TitleExampleWidget({super.key});
+class TypographyExampleWidget extends StatelessWidget {
+  const TypographyExampleWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,30 +10,29 @@ class TitleExampleWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         const TekTypography(
-          text: 'Level1. Flatter UI',
+          text: 'Level1. Teko Flat Design',
           type: TekTypographyType.level1,
         ),
         TekVSpace.mainSpace,
         const TekTypography(
-          text: 'Level2. Flatter UI',
+          text: 'Level2. Teko Flat Design',
           type: TekTypographyType.level2,
         ),
         TekVSpace.mainSpace,
         const TekTypography(
-          text: 'Level3. Flatter UI',
+          text: 'Level3. Teko Flat Design',
           type: TekTypographyType.level3,
         ),
         TekVSpace.mainSpace,
         const TekTypography(
-          text: 'Level4. Flatter UI',
+          text: 'Level4. Teko Flat Design',
           type: TekTypographyType.level4,
         ),
         TekVSpace.mainSpace,
         const TekTypography(
-          text: 'Level5. Flatter UI',
+          text: 'Level5. Teko Flat Design',
           type: TekTypographyType.level5,
         ),
-        TekVSpace.mainSpace,
       ],
     );
   }

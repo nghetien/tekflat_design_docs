@@ -3,8 +3,8 @@ import 'package:tekflat_design_docs/src/app/app.dart';
 import 'package:tekflat_design_docs/src/core/core.dart';
 import 'package:flutter/material.dart';
 
-class TitlesPageLayoutMobile extends StatelessWidget {
-  const TitlesPageLayoutMobile({super.key});
+class TitlesPageLayoutTablet extends StatelessWidget {
+  const TitlesPageLayoutTablet({super.key});
 
   @override
   Widget build(BuildContext context) => Column(
@@ -12,8 +12,14 @@ class TitlesPageLayoutMobile extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           PageHeaderWidget(
-            title: S.current.title,
-            description: S.current.titleHeader,
+            title: 'Typography',
+            description: S.current.typographyTitle,
+          ),
+          TekVSpace.p32,
+          PageContentContainerWidget(
+            title: S.current.whenToUse,
+            // ignore: prefer_const_constructors
+            child: TypographyWhenToUseWidget(),
           ),
           TekVSpace.p32,
           PageContentContainerWidget(

@@ -18,12 +18,14 @@ class SpacesPageLayoutTablet extends StatelessWidget {
           TekVSpace.p32,
           PageContentContainerWidget(
             title: S.current.examples,
+            ableToFeedback: true,
             child: SpacesExamplesWidget(),
           ),
           TekVSpace.p32,
           // ignore: prefer_const_constructors
           PageContentContainerWidget(
             title: 'API',
+            ableToFeedback: true,
             // ignore: prefer_const_constructors
             child: SpacesAPIsWidget(),
           ),

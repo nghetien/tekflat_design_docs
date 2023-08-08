@@ -12,18 +12,26 @@ class TitlesPageLayoutWeb extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           PageHeaderWidget(
-            title: S.current.title,
-            description: S.current.titleHeader,
+            title: 'Typography',
+            description: S.current.typographyTitle,
+          ),
+          TekVSpace.p32,
+          PageContentContainerWidget(
+            title: S.current.whenToUse,
+            // ignore: prefer_const_constructors
+            child: TypographyWhenToUseWidget(),
           ),
           TekVSpace.p32,
           PageContentContainerWidget(
             title: S.current.examples,
+            ableToFeedback: true,
             child: TitlesExamplesWidget(),
           ),
           TekVSpace.p32,
           // ignore: prefer_const_constructors
           PageContentContainerWidget(
             title: 'API',
+            ableToFeedback: true,
             // ignore: prefer_const_constructors
             child: TitlesAPIsWidget(),
           ),

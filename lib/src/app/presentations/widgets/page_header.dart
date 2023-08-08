@@ -13,25 +13,23 @@ class PageHeaderWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SelectionArea(
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Text(
-            title,
-            style: TekTextStyles.headline.copyWith(
-              fontWeight: FontWeight.bold,
-              fontSize: TekFontSizes().s36,
-            ),
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        Text(
+          title,
+          style: TekTextStyles.headline.copyWith(
+            fontWeight: FontWeight.bold,
+            fontSize: TekFontSizes().s36,
           ),
-          TekVSpace.p4,
-          Text(
-            description,
-            maxLines: 10,
-          ),
-        ],
-      ),
+        ),
+        TekVSpace.p4,
+        Text(
+          description,
+          maxLines: 10,
+        ),
+      ],
     );
   }
 }

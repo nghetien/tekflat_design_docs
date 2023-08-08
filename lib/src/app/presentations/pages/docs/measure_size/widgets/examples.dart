@@ -2,12 +2,13 @@ import 'package:tekflat_design/tekflat_design.dart';
 import 'package:tekflat_design_docs/src/app/app.dart';
 import 'package:tekflat_design_docs/src/app/presentations/examples/measure_size.dart';
 import 'package:flutter/material.dart';
+import 'package:tekflat_design_docs/src/core/core.dart';
 
 class TekMeasureSizeExamplesWidget extends StatelessWidget {
   TekMeasureSizeExamplesWidget({super.key});
 
   final List<String> _listText = [
-    'Basic Measure Size',
+    'Measure Size',
   ];
 
   final _listPathFile = [
@@ -18,14 +19,13 @@ class TekMeasureSizeExamplesWidget extends StatelessWidget {
   Widget build(BuildContext context) => Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          TekVSpace.p4,
-          DocsTitleItemWidget(title: _listText[0]),
           TekVSpace.p8,
-          // ExampleBlockWidget(
-          //   description: Text(_listText[0]),
-          //   pathFileExample: _listPathFile[0],
-          //   preview: const TekMeasureSizeExampleWidget(),
-          // ),
+          ExampleBlockWidget(
+            preview: const TekMeasureSizeExampleWidget(),
+            title: S.current.basicUsage,
+            description: Text(_listText[0]),
+            pathFileExample: _listPathFile[0],
+          ),
         ],
       );
 }

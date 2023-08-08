@@ -18,6 +18,7 @@ class ResponsivePageLayoutMobile extends StatelessWidget {
           TekVSpace.p32,
           PageContentContainerWidget(
             title: S.current.examples,
+            ableToFeedback: true,
             // ignore: prefer_const_constructors
             child: ResponsiveExamplesWidget(),
           ),
@@ -25,6 +26,7 @@ class ResponsivePageLayoutMobile extends StatelessWidget {
           // ignore: prefer_const_constructors
           PageContentContainerWidget(
             title: 'API',
+            ableToFeedback: true,
             // ignore: prefer_const_constructors
             child: ResponsiveAPIsWidget(),
           ),

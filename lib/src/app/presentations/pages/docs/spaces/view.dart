@@ -1,7 +1,7 @@
+import 'package:flutter/material.dart';
 import 'package:tekflat_design/tekflat_design.dart';
 import 'package:tekflat_design_docs/src/app/app.dart';
 import 'package:tekflat_design_docs/src/core/core.dart';
-import 'package:flutter/material.dart';
 
 class SpacesPage extends StatelessWidget {
   const SpacesPage({Key? key}) : super(key: key);
@@ -14,11 +14,23 @@ class SpacesPage extends StatelessWidget {
         title: S.current.spaces,
         children: [
           SideBarModelItem(
-            title: S.current.examples,
-          ),
+              title: S.current.examples, children: [
+                SideBarModelItem(
+                  title: 'Vertical Space',
+                ),
+                SideBarModelItem(
+                  title: 'Horizontal Space',
+                ),
+              ]),
           SideBarModelItem(
-            title: 'API',
-          ),
+              title: 'API', children: [
+                SideBarModelItem(
+                  title: 'Vertical Space',
+                ),
+                SideBarModelItem(
+                  title: 'Horizontal Space',
+                ),
+              ]),
           SideBarModelItem(
             title: S.current.makeAQuestion,
           ),

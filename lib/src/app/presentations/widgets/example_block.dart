@@ -103,13 +103,11 @@ class _ExampleBlockWidgetState extends State<ExampleBlockWidget> {
               ],
             ),
           ),
-          SelectionArea(
-            child: Padding(
-              padding: EdgeInsets.all(TekSpacings().mainSpacing).copyWith(
-                top: TekSpacings().p8,
-              ),
-              child: widget.description,
+          Padding(
+            padding: EdgeInsets.all(TekSpacings().mainSpacing).copyWith(
+              top: TekSpacings().p8,
             ),
+            child: widget.description,
           ),
           const TekLineDash(),
           Padding(

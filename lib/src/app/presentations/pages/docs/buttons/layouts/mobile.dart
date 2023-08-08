@@ -18,17 +18,19 @@ class ButtonsPageLayoutMobile extends StatelessWidget {
           TekVSpace.p32,
           PageContentContainerWidget(
             title: S.current.whenToUse,
-            child: ButtonsHeaderWidget(),
+            child: ButtonsWhenToUseWidget(),
           ),
           TekVSpace.p32,
           PageContentContainerWidget(
             title: S.current.examples,
+            ableToFeedback: true,
             child: ButtonsExamplesWidget(),
           ),
           TekVSpace.p32,
           // ignore: prefer_const_constructors
           PageContentContainerWidget(
             title: 'API',
+            ableToFeedback: true,
             // ignore: prefer_const_constructors
             child: ButtonsAPIsWidget(),
           ),

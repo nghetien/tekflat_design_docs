@@ -3,8 +3,8 @@ import 'package:tekflat_design_docs/src/app/app.dart';
 import 'package:tekflat_design_docs/src/core/core.dart';
 import 'package:flutter/material.dart';
 
-class TitlesPage extends StatelessWidget {
-  const TitlesPage({Key? key}) : super(key: key);
+class TypographyPage extends StatelessWidget {
+  const TypographyPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) => PageContainerWidget(
@@ -18,9 +18,19 @@ class TitlesPage extends StatelessWidget {
               ),
               SideBarModelItem(
                 title: 'API',
+                children: [
+                  SideBarModelItem(
+                    title: S.current.basicUsage,
+                  ),
+                ],
               ),
               SideBarModelItem(
                 title: S.current.makeAQuestion,
+                children: [
+                  SideBarModelItem(
+                    title: 'Typography',
+                  ),
+                ],
               ),
             ],
           ),

@@ -18,9 +18,19 @@ class ResponsivePage extends StatelessWidget {
               ),
               SideBarModelItem(
                 title: 'API',
+                children: [
+                  SideBarModelItem(
+                    title: S.current.basicUsage,
+                  ),
+                ],
               ),
               SideBarModelItem(
                 title: S.current.makeAQuestion,
+                children: [
+                  SideBarModelItem(
+                    title: S.current.responsive,
+                  ),
+                ],
               ),
             ],
           ),

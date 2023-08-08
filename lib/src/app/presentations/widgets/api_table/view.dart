@@ -36,6 +36,7 @@ class _APITableWidgetState extends State<APITableWidget> {
           key: _propertyKey,
           name: S.current.property,
           width: widget.widthOfPropertyColumn,
+          minWidth: 200,
           customizeItemWidget: (
             context,
             value,
@@ -60,7 +61,7 @@ class _APITableWidgetState extends State<APITableWidget> {
         DataTableColumn(
           key: _descriptionKey,
           name: S.current.description,
-          minWidth: 250,
+          minWidth: 200,
           customizeItemWidget: (
             context,
             value,
@@ -82,7 +83,7 @@ class _APITableWidgetState extends State<APITableWidget> {
         DataTableColumn(
           key: _typeKey,
           name: S.current.type,
-          minWidth: 180,
+          minWidth: 200,
           width: widget.widthOfTypeColumn,
           customizeItemWidget: (
             context,
@@ -109,7 +110,8 @@ class _APITableWidgetState extends State<APITableWidget> {
         DataTableColumn(
           key: _defaultValueKey,
           name: S.current.defaultValue,
-          width: widget.widthOfDefaultValueColumn ?? 140,
+          width: widget.widthOfDefaultValueColumn,
+          minWidth: 200,
           customizeItemWidget: (
             context,
             value,
@@ -184,31 +186,29 @@ class _APITableWidgetState extends State<APITableWidget> {
   }
 
   @override
-  Widget build(BuildContext context) => SelectionArea(
-        child: TekDataTable<APITableModel>(
-          tableColumns: _tableColumns(),
-          controller: _controller,
-          handleChangeData: ({
-            required int currentPage,
-            required int itemsPerPage,
-          }) {},
-          headerOption: TekDataTableHeaderOption(
-            alignment: Alignment.centerLeft,
-            padding: EdgeInsets.symmetric(
-              horizontal: TekSpacings().mainSpacing,
-            ),
-          ),
-          paginationOption: const TekDataTablePaginationOption(
-            isShowPagination: false,
-            enableItemPerPage: false,
-          ),
-          rowOption: TekDataTableRowOption(
-            bordered: true,
-            paddingOfRowItem: EdgeInsets.symmetric(
-              horizontal: TekSpacings().mainSpacing,
-              vertical: TekSpacings().p8,
-            ),
-          ),
-        ),
-      );
+  Widget build(BuildContext context) => TekDataTable<APITableModel>(
+    tableColumns: _tableColumns(),
+    controller: _controller,
+    handleChangeData: ({
+      required int currentPage,
+      required int itemsPerPage,
+    }) {},
+    headerOption: TekDataTableHeaderOption(
+      alignment: Alignment.centerLeft,
+      padding: EdgeInsets.symmetric(
+        horizontal: TekSpacings().mainSpacing,
+      ),
+    ),
+    paginationOption: const TekDataTablePaginationOption(
+      isShowPagination: false,
+      enableItemPerPage: false,
+    ),
+    rowOption: TekDataTableRowOption(
+      bordered: true,
+      paddingOfRowItem: EdgeInsets.symmetric(
+        horizontal: TekSpacings().mainSpacing,
+        vertical: TekSpacings().p8,
+      ),
+    ),
+  );
 }
