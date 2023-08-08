@@ -1,0 +1,14 @@
+{
+  "DEV": {
+    "API_URL": "https://apidev.online",
+    "SERVICES": {}
+  },
+  "STAGE": {
+    "API_URL": "https://apistage.online",
+    "SERVICES": {}
+  },
+  "LIVE": {
+    "API_URL": "https://api.online",
+    "SERVICES": {}
+  }
+}

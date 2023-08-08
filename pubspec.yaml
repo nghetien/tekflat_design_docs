@@ -1,0 +1,122 @@
+name: tekflat_design_docs
+description: Teko Flat Design for Flutter.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  tekflat_design:
+    path: ../../flutter_project/tekflat_design
+  font_awesome_flutter: ^10.5.0
+  timezone: ^0.9.2
+  provider: ^6.0.5
+  get_it: ^7.6.0
+  collection: ^1.17.0 # up lên bản mới nhất là lỗi
+  go_router: ^10.0.0
+  flutter_highlight: ^0.7.0
+  get: ^4.6.5
+  flutter_svg: ^2.0.7
+  flutter_form_builder: ^9.1.0
+  form_builder_validators: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/
+    - assets/fonts/
+    - assets/images/
+    - config_app/
+    - lib/src/app/presentations/examples/
+    - lib/src/app/presentations/examples/buttons/
+    - lib/src/app/presentations/examples/data_table/
+    - lib/src/app/presentations/examples/popup_menu_button/
+    - lib/src/app/presentations/examples/images/
+    - lib/src/app/presentations/examples/tags/
+    - lib/src/app/presentations/examples/loadings/
+    - lib/src/app/presentations/examples/check_boxes/
+    - lib/src/app/presentations/examples/inputs/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Poppins-BlackItalic.ttf
+          weight: 900
+          style: italic
+
+    - family: SpaceMono
+      fonts:
+        - asset: assets/fonts/SpaceMono-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/SpaceMono-Italic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/SpaceMono-Bold.ttf
+          weight: 600
+        - asset: assets/fonts/SpaceMono-BoldItalic.ttf
+          weight: 600
+          style: italic
+
+flutter_intl:
+  enabled: true
+  arb_dir: lib/src/core/l10n
+  output_dir: lib/src/core/l10n/generated

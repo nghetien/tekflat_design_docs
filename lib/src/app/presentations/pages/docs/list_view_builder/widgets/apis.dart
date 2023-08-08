@@ -1,0 +1,212 @@
+import 'package:tekflat_design/tekflat_design.dart';
+import 'package:tekflat_design_docs/runner/runner.dart';
+import 'package:tekflat_design_docs/src/app/app.dart';
+import 'package:tekflat_design_docs/src/core/core.dart';
+import 'package:flutter/material.dart';
+
+class ListViewBuilderAPIsWidget extends StatelessWidget {
+  const ListViewBuilderAPIsWidget({super.key});
+
+  List<APITableModel> _getDataSourceListViewBuilder() => [
+        APITableModel(
+          id: 1,
+          property: 'items',
+          description: S.current.listViewBuilderAPIDescription1,
+          type: 'List<T>',
+          defaultValue: 'required',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 2,
+          property: 'numberOfItemsInRow',
+          description: S.current.listViewBuilderAPIDescription2,
+          type: 'int',
+          defaultValue: '1',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 3,
+          property: 'spaceBetweenItemsInRow',
+          description: S.current.listViewBuilderAPIDescription3,
+          type: 'double',
+          defaultValue: 'null',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 4,
+          property: 'scrollDirection',
+          description: S.current.listViewBuilderAPIDescription4,
+          type: 'Axis',
+          defaultValue: 'Axis.vertical',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 5,
+          property: 'reverse',
+          description: S.current.listViewBuilderAPIDescription5,
+          type: 'bool',
+          defaultValue: 'false',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 6,
+          property: 'controller',
+          description: S.current.listViewBuilderAPIDescription6,
+          type: 'ScrollController',
+          defaultValue: 'null',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 7,
+          property: 'primary',
+          description: S.current.listViewBuilderAPIDescription7,
+          type: 'bool',
+          defaultValue: 'null',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 8,
+          property: 'physics',
+          description: S.current.listViewBuilderAPIDescription8,
+          type: 'ScrollPhysics',
+          defaultValue: 'null',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 9,
+          property: 'shrinkWrap',
+          description: S.current.listViewBuilderAPIDescription9,
+          type: 'bool',
+          defaultValue: 'false',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 10,
+          property: 'padding',
+          description: S.current.listViewBuilderAPIDescription10,
+          type: 'EdgeInsetsGeometry',
+          defaultValue: 'null',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 11,
+          property: 'itemBuilder',
+          description: S.current.listViewBuilderAPIDescription11,
+          type: 'Widget Function(BuildContext, int, T)',
+          defaultValue: 'required',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 12,
+          property: 'findChildIndexCallback',
+          description: S.current.listViewBuilderAPIDescription12,
+          type: 'int? Function(Key)',
+          defaultValue: 'null',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 13,
+          property: 'separatorBuilder',
+          description: S.current.listViewBuilderAPIDescription13,
+          type: 'Widget Function(BuildContext, int)',
+          defaultValue: 'null',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 14,
+          property: 'addAutomaticKeepAlives',
+          description: S.current.listViewBuilderAPIDescription14,
+          type: 'bool',
+          defaultValue: 'true',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 15,
+          property: 'addRepaintBoundaries',
+          description: S.current.listViewBuilderAPIDescription15,
+          type: 'bool',
+          defaultValue: 'true',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 16,
+          property: 'addSemanticIndexes',
+          description: S.current.listViewBuilderAPIDescription16,
+          type: 'bool',
+          defaultValue: 'true',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 17,
+          property: 'cacheExtent',
+          description: S.current.listViewBuilderAPIDescription17,
+          type: 'double',
+          defaultValue: 'null',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 18,
+          property: 'dragStartBehavior',
+          description: S.current.listViewBuilderAPIDescription18,
+          type: 'DragStartBehavior',
+          defaultValue: 'DragStartBehavior.start',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 19,
+          property: 'keyboardDismissBehavior',
+          description: S.current.listViewBuilderAPIDescription19,
+          type: 'ScrollViewKeyboardDismissBehavior',
+          defaultValue: 'ScrollViewKeyboardDismissBehavior.manual',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 20,
+          property: 'restorationId',
+          description: S.current.listViewBuilderAPIDescription20,
+          type: 'String',
+          defaultValue: 'null',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 21,
+          property: 'clipBehavior',
+          description: S.current.listViewBuilderAPIDescription21,
+          type: 'Clip',
+          defaultValue: 'Clip.hardEdge',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 22,
+          property: 'mainAxisAlignment',
+          description: S.current.listViewBuilderAPIDescription22,
+          type: 'MainAxisAlignment',
+          defaultValue: 'MainAxisAlignment.start',
+          version: AppMode().appMode.version,
+        ),
+        APITableModel(
+          id: 23,
+          property: 'crossAxisAlignment',
+          description: S.current.listViewBuilderAPIDescription23,
+          type: 'CrossAxisAlignment',
+          defaultValue: 'CrossAxisAlignment.center',
+          version: AppMode().appMode.version,
+        ),
+      ];
+
+  @override
+  Widget build(BuildContext context) => Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          TekVSpace.p4,
+          const DocsTitleItemWidget(title: 'Basic List View Builder'),
+          TekVSpace.p8,
+          APITableWidget(
+            widthOfPropertyColumn: 200,
+            widthOfTypeColumn: 300,
+            widthOfDefaultValueColumn: 400,
+            dataSources: _getDataSourceListViewBuilder(),
+          ),
+        ],
+      );
+}

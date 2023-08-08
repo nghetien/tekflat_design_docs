@@ -1,0 +1,21 @@
+.main_body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+.loading_indicator_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#loading_indicator_img {
+    width: 70vw;
+    max-width: 400px;
+    min-width: 300px;
+}
